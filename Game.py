@@ -32,7 +32,7 @@ if __name__ == '__main__':
     board.table[player.y][player.x] = player
 
     d = {'a': player.move_left, 'd': player.move_right, 'w': player.move_up, 's': player.move_down}
-    print('Use "w", "a", "s", "d" to move, "1" to guess the key and "0" to leave')
+    print('Use "w", "a", "s", "d" to move, "q" to use superpower, "1" to guess the key or "0" to leave')
 
     while psswd.shots > 0 and player.hp > 0:
 
