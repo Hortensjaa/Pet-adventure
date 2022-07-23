@@ -1,2 +1,2 @@
-# Pet-adventure
+# Pet-adventures
 Basic console game using python
